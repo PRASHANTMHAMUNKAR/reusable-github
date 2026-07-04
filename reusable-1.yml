@@ -1,0 +1,9 @@
+name: reusable workflow demo
+on:
+  workflow_call:
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      -name: greeting step
+       run: echo "Welcome to Github reusable workflow demo"
