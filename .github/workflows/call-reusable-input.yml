@@ -1,0 +1,8 @@
+name: call Reusable input
+on: push
+
+jobs:
+  call-greeting:
+    uses: ./.github/workflows/reusable-input-demo.yml
+    with: 
+      name: "Prashant Mhamunkar"
